@@ -65,7 +65,7 @@ traverse = () => {
       /*
       This next group of loops finds the second level of indexing
     */
-   if (one == 2) {
+   if (one >= 2) {
     for (let b = 0; b < sitemap[0].children.length; b++) {
       two = 0;
       for (let c = 0; c < sitemap[0].children[b].childNodes.length; c++) {
