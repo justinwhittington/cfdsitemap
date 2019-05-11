@@ -1,5 +1,5 @@
 1.0.0.0.0.0.0.0.0 Home
- 2.0.0.0.0.0.0.0.0 Government
+2.0.0.0.0.0.0.0.0 Government
    2.1.0.0.0.0.0.0.0 Elected & Appointed Officials
      2.1.1.0.0.0.0.0.0 Agendas, Minutes, Videos & Audio
      2.1.2.0.0.0.0.0.0 Boards, Committees & Commissions
@@ -1184,7 +1184,7 @@
          2.9.12.17.1.0.0.0.0 Current Data
          2.9.12.17.2.0.0.0.0 Lake Levels
          2.9.12.17.3.0.0.0.0 Drought Status & Information
- 3.0.0.0.0.0.0.0.0 Online Services
+3.0.0.0.0.0.0.0.0 Online Services
    3.1.0.0.0.0.0.0.0 Alerts
    3.2.0.0.0.0.0.0.0 Notify Me/Subscribe
    3.3.0.0.0.0.0.0.0 Business & Employment
@@ -1211,7 +1211,7 @@
    3.9.0.0.0.0.0.0.0 Internet Email (Employee Access)
    3.10.0.0.0.0.0.0.0 CODI - (Employee Access)
    3.11.0.0.0.0.0.0.0 Development Services Center
- 4.0.0.0.0.0.0.0.0 Residents
+4.0.0.0.0.0.0.0.0 Residents
    4.1.0.0.0.0.0.0.0 About Durham
      4.1.1.0.0.0.0.0.0 A City on the Move
      4.1.2.0.0.0.0.0.0 Boards, Committees & Commissions
@@ -1240,7 +1240,7 @@
    4.19.0.0.0.0.0.0.0 Water & Sewer Services
    4.20.0.0.0.0.0.0.0 Working in Durham
    4.21.0.0.0.0.0.0.0 Waste (Garbage) Disposal Services
- 5.0.0.0.0.0.0.0.0 Visiting
+5.0.0.0.0.0.0.0.0 Visiting
    5.1.0.0.0.0.0.0.0 Festivals
      5.1.1.0.0.0.0.0.0 American Dance Festival
      5.1.2.0.0.0.0.0.0 Bimbé Cultural Arts Festival
@@ -1275,7 +1275,7 @@
      5.10.1.0.0.0.0.0.0 Durham Bulls Baseball
      5.10.2.0.0.0.0.0.0 Duke University Athletics
      5.10.3.0.0.0.0.0.0 North Carolina Central University Athletics
- 6.0.0.0.0.0.0.0.0 How Do I...
+6.0.0.0.0.0.0.0.0 How Do I...
    6.1.0.0.0.0.0.0.0 Apply For
      6.1.1.0.0.0.0.0.0 Alcohol Permits
      6.1.2.0.0.0.0.0.0 Boards, Committees or Commissions
