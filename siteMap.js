@@ -16,11 +16,21 @@ function mapSite() {
   let layer1 = sitemap[0].children;
   // loop through layer 1
   for (let a = 0; a < layer1.length; a++) {
-    two = 0;
+    
+    two = 0,
+    three = 0,
+    four = 0,
+    five = 0,
+    six = 0,
+    seven = 0,
+    eight = 0,
+    nine = 0;
+    
     // layer1List is the list of outer titles. Each child from layer1 has children with the list title
     let layer1List = layer1[a].children[0];
     if (layer1List.innerText) {
       one++;
+      //two, three, four, five, six, seven, eight, nine = 0;
       console.log(
         `${one}.${two}.${three}.${four}.${five}.${six}.${seven}.${eight}.${nine} ${
           layer1List.innerText
@@ -30,7 +40,7 @@ function mapSite() {
     // Passes 'Home'
     if (one > 1) {
       two = 0;
-      if (layer1[a].childNodes[3].localName == "ol") {
+      if (layer1[a].childNodes[3] && layer1[a].childNodes[3].localName == "ol") {
         // The Second 'layer of the sitemap list
         let layer2 = layer1[a].childNodes[3].children;
         // loop through layer two and log the pages
@@ -42,13 +52,14 @@ function mapSite() {
               layer2[b].children[0].innerText
             }`
           );
-
+          
           if (
             layer2[b].childNodes[3] &&
             layer2[b].childNodes[3].localName == "ol"
           ) {
             let layer3 = layer2[b].childNodes[3].children;
             // Loops third layer
+            three = 0;
             for (let c = 0; c < layer3.length; c++) {
               four = 0;
               three++;
@@ -65,7 +76,7 @@ function mapSite() {
                 let layer4 = layer3[c].childNodes[3].children;
 
                 for (let d = 0; d < layer4.length; d++) {
-                  five = 0;
+                  five = 0
                   four++;
                   console.log(
                     `    ${one}.${two}.${three}.${four}.${five}.${six}.${seven}.${eight}.${nine} ${
@@ -78,7 +89,7 @@ function mapSite() {
                     layer4[d].childNodes[3].localName == "ol"
                   ) {
                     let layer5 = layer4[d].childNodes[3].children;
-
+                    five = 0;
                     for (let e = 0; e < layer5.length; e++) {
                       six = 0;
                       five++;
