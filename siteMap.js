@@ -48,7 +48,7 @@ function mapSite() {
           three = 0;
           two++;
           console.log(
-            `${one}.${two}.${three}.${four}.${five}.${six}.${seven}.${eight}.${nine} ${
+            `  ${one}.${two}.${three}.${four}.${five}.${six}.${seven}.${eight}.${nine} ${
               layer2[b].children[0].innerText
             }`
           );
@@ -64,7 +64,7 @@ function mapSite() {
               four = 0;
               three++;
               console.log(
-                `  ${one}.${two}.${three}.${four}.${five}.${six}.${seven}.${eight}.${nine} ${
+                `    ${one}.${two}.${three}.${four}.${five}.${six}.${seven}.${eight}.${nine} ${
                   layer3[c].children[0].innerText
                 }`
               );
@@ -79,7 +79,7 @@ function mapSite() {
                   five = 0
                   four++;
                   console.log(
-                    `    ${one}.${two}.${three}.${four}.${five}.${six}.${seven}.${eight}.${nine} ${
+                    `      ${one}.${two}.${three}.${four}.${five}.${six}.${seven}.${eight}.${nine} ${
                       layer4[d].children[0].innerText
                     }`
                   );
@@ -94,7 +94,7 @@ function mapSite() {
                       six = 0;
                       five++;
                       console.log(
-                        `      ${one}.${two}.${three}.${four}.${five}.${six}.${seven}.${eight}.${nine} ${
+                        `        ${one}.${two}.${three}.${four}.${five}.${six}.${seven}.${eight}.${nine} ${
                           layer5[e].children[0].innerText
                         }`
                       );
@@ -109,7 +109,7 @@ function mapSite() {
                           seven = 0;
                           six++;
                           console.log(
-                            `        ${one}.${two}.${three}.${four}.${five}.${six}.${seven}.${eight}.${nine} ${
+                            `          ${one}.${two}.${three}.${four}.${five}.${six}.${seven}.${eight}.${nine} ${
                               layer6[f].children[0].innerText
                             }`
                           );
@@ -124,7 +124,7 @@ function mapSite() {
                               eight = 0;
                               seven++;
                               console.log(
-                                `          ${one}.${two}.${three}.${four}.${five}.${six}.${seven}.${eight}.${nine} ${
+                                `            ${one}.${two}.${three}.${four}.${five}.${six}.${seven}.${eight}.${nine} ${
                                   layer7[g].children[0].innerText
                                 }`
                               );
@@ -139,7 +139,7 @@ function mapSite() {
                                   nine = 0;
                                   eight++;
                                   console.log(
-                                    `            ${one}.${two}.${three}.${four}.${five}.${six}.${seven}.${eight}.${nine} ${
+                                    `              ${one}.${two}.${three}.${four}.${five}.${six}.${seven}.${eight}.${nine} ${
                                       layer8[h].children[0].innerText
                                     }`
                                   );
@@ -154,7 +154,7 @@ function mapSite() {
                                     for (let i = 0; i < layer9.length; i++) {
                                       nine++;
                                       console.log(
-                                        `            ${one}.${two}.${three}.${four}.${five}.${six}.${seven}.${eight}.${nine} ${
+                                        `              ${one}.${two}.${three}.${four}.${five}.${six}.${seven}.${eight}.${nine} ${
                                           layer9[i].children[0].innerText
                                         }`
                                       );
